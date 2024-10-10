@@ -1,0 +1,8 @@
+<h1>Profile List</h1>
+<ul>
+    {% for profile in profiles %}
+        <li>
+            {{profile.name}} --- {{profile.email}} --- {{profile.phone}} --- {{profile.address}} -- {{profile.id}}
+        </li>
+    {% endfor %}
+</ul>
